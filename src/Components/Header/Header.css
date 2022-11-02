@@ -2,7 +2,7 @@
 
 .header-div{
     background: #2a2a2a;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 15px 20px;
     display: flex;
     justify-content: center;
@@ -17,3 +17,12 @@
     margin: 0 20px;
     font-weight: 600;
 }
+
+.header-div a.active {
+    color: blue;
+    border-bottom: 1px solid blue;
+  }
+  .header-div a.inactive {
+    /* font-style: italic; */
+  }
+  
