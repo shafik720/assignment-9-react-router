@@ -11,8 +11,12 @@
     align-items: center;
     flex-direction: column;
 }
+.home-left h1{
+    color: #0F3047;
+}
 .home-left h2{
     margin: 10px 0;
+    color: #0F3047;
 }
 .home-left button{
     outline: none;
