@@ -1,10 +1,12 @@
 import React from 'react';
-import './Error.css'
+import './Error.css';
+import sadtoothless from '../../utilities/img/toothless sleeping.png'
 
 const Error = () => {
     return (
-        <div className="error-div">
+        <div className="container error-div">
             <h2>Error 404 Not Found</h2>
+            <img src={sadtoothless} alt=""/>
         </div>
     );
 };

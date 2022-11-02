@@ -3,7 +3,7 @@
 
 
 .home-div img{
-    width: 100%;
+    width: 90%;
 }
 .home-left{
     display: flex;
@@ -29,4 +29,10 @@
 .red-text{
     color: #C92B32;
     font-weight: 700;
+}
+
+.home-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
