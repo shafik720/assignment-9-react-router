@@ -18,9 +18,12 @@
     font-weight: 600;
 }
 
+.header-div a:hover{
+    color: orange;
+}
 .header-div a.active {
-    color: blue;
-    border-bottom: 1px solid blue;
+    color: orange;
+    border-bottom: 2px solid orange;
   }
   .header-div a.inactive {
     /* font-style: italic; */
