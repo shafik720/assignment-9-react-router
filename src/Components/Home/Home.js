@@ -1,5 +1,6 @@
 import React from 'react';
-import './Home.css'
+import './Home.css';
+import img1 from '../../utilities/img/dragon (1).png'
 
 const Home = () => {
     return (
@@ -11,7 +12,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="col-lg-6">
-                    <div className=""></div>
+                    <div className="">
+                        <img src={img1} alt=""/>
+                    </div>
                 </div>
             </div>
         </div>
