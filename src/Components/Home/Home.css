@@ -1,0 +1,17 @@
+
+
+
+
+.home-div img{
+    width: 100%;
+}
+.home-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.red-text{
+    color: #C92B32;
+    font-weight: 700;
+}
