@@ -1,0 +1,19 @@
+
+
+.header-div{
+    background: #2a2a2a;
+    margin-top: 50px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.header-div a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin: 0 20px;
+    font-weight: 600;
+}
