@@ -4,7 +4,7 @@ import './Blogs.css'
 const Blogs = () => {
     return (
         <div>
-            
+            <h2>Blog Section goes here</h2>
         </div>
     );
 };
