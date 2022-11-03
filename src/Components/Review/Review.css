@@ -28,3 +28,7 @@
 .userImg img{
     width: 100%; 
 }
+
+.user-comments p{
+    color: #0F3047;
+}
