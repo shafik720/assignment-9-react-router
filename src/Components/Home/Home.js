@@ -35,7 +35,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row my-4">
+                <h2 className="text-center mt-5">Our Customer Reviews</h2>
             {                
                     users.map(index=>(
                         index.id <4 && (
