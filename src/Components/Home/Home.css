@@ -61,7 +61,15 @@
 
 
 @media (max-width: 760px){
+    .home-left{
+        margin-top: 50px ;
+    }
     .home-div img{
         margin: 80px 0 20px 0;
+    }
+
+    /* // common style for all div  */
+    .about-div, .blogs-div, .dashBoard-div, .error-div, .review-div{
+        margin-top: 70px;
     }
 }

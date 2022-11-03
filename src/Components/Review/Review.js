@@ -4,7 +4,7 @@ import './Review.css';
 const Review = (props) => {
     const{ img, userName, location, profession, comments} = props.index;
     return (
-        <div className=" col-lg-4">
+        <div className=" col-lg-4 review-divs">
             <div className="user-card">
                 <div className="userCard-top">
                     <div className="userImg">

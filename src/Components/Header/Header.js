@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
+import dragonLogo from '../../utilities/img/dragon (1).png'
 import './Header.css';
 
 const Header = () => {
@@ -41,11 +42,18 @@ const Header = () => {
             clickClose.classList.add('hidden');
         }
     }
+    // navigate to home page
+    let navigate = useNavigate();
+    function navigateHome(){
+        let url = '/';
+        navigate(url);
+    }
     return (
         <div className="container my-4">
             <div className="row">
                 <div className="menu-icon">
-                    <div className="menu-logo">
+                    <div onClick={navigateHome} className="menu-logo">
+                        <img src={dragonLogo} alt=""/>
                         <h2>Dragon's Club</h2>
                     </div>
                     <h2 onClick={showMenu} className="clickOpen"><FontAwesomeIcon icon={faBars} /></h2>

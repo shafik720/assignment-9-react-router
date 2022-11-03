@@ -3,7 +3,7 @@ import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div>
+        <div className="blogs-div">
             <h2>Blog Section goes here</h2>
         </div>
     );
