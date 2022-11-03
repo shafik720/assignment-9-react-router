@@ -4,11 +4,14 @@ import img1 from '../../utilities/img/dragon.png'
 import { useNavigate } from 'react-router';
 
 const Home = () => {
+    // navigating after clicking the Show Me button in home page
     const navigate = useNavigate();
     function navigationToShop(){
         let url = '/shop';
         navigate(url);
     }
+
+    // functions for showing 3 User reviews in home page
     return (
         <div className="container">
             <div className="row home-div">
@@ -27,6 +30,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     );
 };
