@@ -7,7 +7,7 @@ const Reviews = () => {
     let[users, setUsers] = useUsers();
     return (
         <div className="container review-div">
-            <div className="row">
+            <div className="row my-4">
                 {
                     users.map(index=><Review
                         index={index}
