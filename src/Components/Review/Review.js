@@ -9,10 +9,10 @@ const Review = (props) => {
             <div className="user-card">
                 <div className="userCard-top">
                     <div className="userImg">
-                        <img src={'/img/user.jpg'} alt=""/>
+                        <img src={img} alt=""/>
                     </div>              
                     <div className="user-details">
-                        <p>Name : {userName} </p>
+                        <p>{userName} </p>
                         <p>{location}</p>
                     </div>
                 </div>

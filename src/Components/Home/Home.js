@@ -36,8 +36,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="row">
-            {
-                
+            {                
                     users.map(index=>(
                         index.id <4 && (
                             <Review

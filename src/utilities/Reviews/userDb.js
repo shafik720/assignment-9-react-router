@@ -1,0 +1,68 @@
+
+
+let userReviews = [
+    {
+        id: 1, 
+        userName : 'Johnny Depp',
+        profession : 'Actor',
+        location : 'California',
+        img : 'img/user (6).jpg',
+        comments : 'This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.',
+    },
+    {
+        id: 2, 
+        userName : 'Robert Downey Jr',
+        profession : 'Actor',
+        location : 'New Orleans',
+        img : 'img/user (7).jpg',
+        comments : 'This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.',
+    },    
+    {
+        id: 3, 
+        userName : 'Henry Cavil',
+        profession : 'Actor',
+        location : 'London',
+        img : 'img/user (2).jpg',
+        comments : 'This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.',
+    },    
+    {
+        id: 4, 
+        userName : 'Lionel Messi',
+        profession : 'Football Player',
+        location : 'Argentina',
+        img : 'img/user (4).jpg',
+        comments : 'This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.',
+    },    
+    {
+        id: 5, 
+        userName : 'Christiano Ronaldo',
+        profession : 'Football Player',
+        location : 'Portugal',
+        img : 'img/user (3).jpg',
+        comments : 'This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.',
+    },
+    {
+        id: 6, 
+        userName : 'Keeanu Reeves',
+        profession : 'Actor',
+        location : 'Sweeden',
+        img : 'img/user (8).jpg',
+        comments : 'This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.',
+    },
+    {
+        id: 7, 
+        userName : 'Novak djokovic',
+        profession : 'Tennis Player',
+        location : 'Serbia',
+        img : 'img/user (1).png',
+        comments : 'This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.',
+    },
+    {
+        id: 8, 
+        userName : 'Andrew Garfield',
+        profession : 'Actor',
+        location : 'New York',
+        img : 'img/user (1).jpg',
+        comments : 'This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.',
+    },
+]
