@@ -8,11 +8,11 @@ const Reviews = () => {
     return (
         <div className="container review-div">
             <div className="row">
-            {
-                users.map(index=><Review
-                    index={index}
-                    key={index.id}
-                ></Review>)
+                {
+                    users.map(index=><Review
+                        index={index}
+                        key={index.id}
+                    ></Review>)
                 }
             </div>
             

@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css';
 import img1 from '../../utilities/img/dragon.png'
 import { useNavigate } from 'react-router';
+import useUsers from '../../utilities/hooks/useUsers';
+import Review from '../Review/Review';
 
 const Home = () => {
     // navigating after clicking the Show Me button in home page
@@ -12,6 +14,9 @@ const Home = () => {
     }
 
     // functions for showing 3 User reviews in home page
+    let[users, setUsers] = useUsers();
+    let userLength = users.length;
+    
     return (
         <div className="container">
             <div className="row home-div">
@@ -30,7 +35,19 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
+            <div className="row">
+            {
+                
+                    users.map(index=>(
+                        index.id <4 && (
+                            <Review
+                        index={index}
+                        key={index.id}
+                    ></Review>)
+                        )
+                    )
+                }
+            </div>
         </div>
     );
 };
