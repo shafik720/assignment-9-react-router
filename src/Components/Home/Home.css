@@ -14,13 +14,11 @@
     text-align: center;
 }
 .home-left h1{
-    color: #0F3047;
-    font-size: 35px;
+    color: #183153;
 }
 .home-left h2{
     margin: 10px 0;
-    color: #0F3047;
-    font-size: 28px;
+    color: #183153;
 }
 .home-left button{
     outline: none;
@@ -46,7 +44,7 @@
 }
 
 .home-page-review h1{
-    color: #0F3047;
+    color: #183153;
 }
 .home-page-review button{
     height: 50px;
@@ -54,7 +52,7 @@
     border-radius: 5px;
     outline: none;
     border: none;
-    background: #0F3047;
+    background: #183153;
     color: white;
     font-size: 22px;
     font-weight: 600;  
