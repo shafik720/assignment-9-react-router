@@ -29,3 +29,49 @@
     /* font-style: italic; */
   }
   
+
+
+.menu-icon{
+    background: #0F3047;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    color: white;    
+    cursor: pointer;
+    display: none;
+}
+
+  @media (max-width: 760px){
+    .menu-icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-div{
+        background: #0F3047;        
+        padding: 15px 20px;
+        display: flex;
+        position: fixed;        
+        left: -100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        border-radius: 0px !important;
+        transition: all 0.3s;
+        top: 50px;
+        width: 70% !important;
+        height: 100vh;
+    }
+    .header-div.active{
+        left: 0;
+    }
+    .clickOpen.hidden{
+        display: none;
+    }
+    .clickClose.hidden{
+        display: none;
+    }
+  }

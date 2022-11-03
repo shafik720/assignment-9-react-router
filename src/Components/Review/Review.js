@@ -3,7 +3,6 @@ import './Review.css';
 
 const Review = (props) => {
     const{ img, userName, location, profession, comments} = props.index;
-    console.log(props.index);
     return (
         <div className=" col-lg-4">
             <div className="user-card">
