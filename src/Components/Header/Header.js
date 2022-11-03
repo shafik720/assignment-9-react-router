@@ -53,11 +53,11 @@ const Header = () => {
                 </div>
             <div onClick={parentClick} className="header-div-parent">
             <div className="header-div">
-                <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink>
-                <NavLink to="/reviews" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Reviews</NavLink>
-                <NavLink to="/dashboard" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Dashboard</NavLink>
-                <NavLink to="/blogs" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Blogs</NavLink>
-                <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : 'inactive')} >About</NavLink>
+                <NavLink  onClick={hideMenu}  to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink>
+                <NavLink  onClick={hideMenu}  to="/reviews" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Reviews</NavLink>
+                <NavLink  onClick={hideMenu} to="/dashboard" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Dashboard</NavLink>
+                <NavLink  onClick={hideMenu} to="/blogs" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Blogs</NavLink>
+                <NavLink  onClick={hideMenu} to="/about" className={({ isActive }) => (isActive ? 'active' : 'inactive')} >About</NavLink>
 
                 {/* <Link to="/about">About</Link> */}
             </div>
