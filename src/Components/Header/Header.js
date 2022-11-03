@@ -9,6 +9,9 @@ const Header = () => {
         let menubar = document.querySelector('.header-div');
         let clickOpen = document.querySelector('.clickOpen');
         let clickClose = document.querySelector('.clickClose');
+
+        let parentMenubar  = document.querySelector('.header-div-parent');
+        parentMenubar.classList.add('active');
         clickOpen.classList.add('hidden');
         clickClose.classList.remove('hidden');
         menubar.classList.add('active');
@@ -17,11 +20,27 @@ const Header = () => {
         let menubar = document.querySelector('.header-div');
         let clickOpen = document.querySelector('.clickOpen');
         let clickClose = document.querySelector('.clickClose');
+
+        let parentMenubar  = document.querySelector('.header-div-parent');
+        parentMenubar.classList.remove('active');
         clickOpen.classList.remove('hidden');
         clickClose.classList.add('hidden');
         menubar.classList.remove('active');
     }
-    
+    function parentClick(e){        
+        let clickOpen = document.querySelector('.clickOpen');
+        let clickClose = document.querySelector('.clickClose');
+
+        let menubar = document.querySelector('.header-div');
+        if(e.target.className == 'header-div-parent active'){
+            menubar.classList.remove('active');
+
+            let parentMenubar  = document.querySelector('.header-div-parent');
+            parentMenubar.classList.remove('active');
+            clickOpen.classList.remove('hidden');
+            clickClose.classList.add('hidden');
+        }
+    }
     return (
         <div className="container my-4">
             <div className="row">
@@ -32,6 +51,7 @@ const Header = () => {
                     <h2 onClick={showMenu} className="clickOpen"><FontAwesomeIcon icon={faBars} /></h2>
                     <h2 onClick={hideMenu} className="clickClose hidden"><FontAwesomeIcon icon={faBarsStaggered} /></h2>
                 </div>
+            <div onClick={parentClick} className="header-div-parent">
             <div className="header-div">
                 <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink>
                 <NavLink to="/reviews" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Reviews</NavLink>
@@ -40,6 +60,7 @@ const Header = () => {
                 <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : 'inactive')} >About</NavLink>
 
                 {/* <Link to="/about">About</Link> */}
+            </div>
             </div>
             </div>
         </div>

@@ -74,4 +74,17 @@
     .clickClose.hidden{
         display: none;
     }
+
+    .header-div-parent{
+        background: #0f30476b;
+        position: absolute;
+        width: 100%;  
+        height: 100%; 
+        left: -100%;
+        top: 50px;     
+        right: 0;
+    }
+    .header-div-parent.active{
+        left: 0;
+    }
   }
