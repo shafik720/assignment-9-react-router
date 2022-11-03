@@ -6,10 +6,14 @@ import useUsers from '../../utilities/hooks/useUsers';
 import Review from '../Review/Review';
 
 const Home = () => {
-    // navigating after clicking the Show Me button in home page
+    // navigating after clicking the  buttons in home page
     const navigate = useNavigate();
     function navigationToShop(){
         let url = '/shop';
+        navigate(url);
+    }
+    function navigationToReviews(){
+        let url = '/reviews';
         navigate(url);
     }
 
@@ -47,7 +51,7 @@ const Home = () => {
                         )
                     )
                 }
-                <button>Show All Reviews</button>
+                <button onClick={navigationToReviews}>Show All Reviews</button>
             </div>
         </div>
     );
