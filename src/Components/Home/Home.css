@@ -41,3 +41,20 @@
     justify-content: center;
     align-items: center;
 }
+
+.home-page-review h1{
+    color: #0F3047;
+}
+.home-page-review button{
+    height: 50px;
+    margin: 35px auto;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #0F3047;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    width: 50%;
+    
+}
