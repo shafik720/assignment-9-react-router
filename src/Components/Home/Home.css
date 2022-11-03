@@ -15,10 +15,12 @@
 }
 .home-left h1{
     color: #0F3047;
+    font-size: 35px;
 }
 .home-left h2{
     margin: 10px 0;
     color: #0F3047;
+    font-size: 28px;
 }
 .home-left button{
     outline: none;
