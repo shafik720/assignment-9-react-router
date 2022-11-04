@@ -10,15 +10,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 15px;
+    margin: 15px 5px;
     text-align: center;
 }
 .home-left h1{
     color: #183153;
+    font-weight: 900;
 }
 .home-left h2{
     margin: 10px 0;
     color: #183153;
+    font-weight: 800;
 }
 .home-left button{
     outline: none;
@@ -31,6 +33,7 @@
     font-weight: 600;
     background: linear-gradient(190deg, darkred, #AD2A34, #DE3C44);
     color: white;
+    font-weight: 700;
 }
 .red-text{
     color: #C92B32;
