@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bar, BarChart, ResponsiveContainer, XAxis } from 'recharts';
+import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 const SecondChart = (props) => {
     let data = props.chart;
@@ -12,7 +12,10 @@ const SecondChart = (props) => {
                 <div className="row mb-5">
                     <BarChart className="mx-auto" width={800} height={400} data={data}>
                         <Bar dataKey="investment" fill="#8884d8" />
+                        <Bar dataKey="sell" fill="darkblue" />
                         <XAxis dataKey="month" />
+                        <YAxis />
+                        <Tooltip />
                     </BarChart>
                 </div>
             </div>
