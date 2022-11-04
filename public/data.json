@@ -37,25 +37,25 @@
     },
     {
         "month": "September",
-        "investment": 70000,
-        "sell": 65000,
+        "investment": 50000,
+        "sell": 60000,
         "revenue": 61000
     },
     {
         "month": "October",
-        "investment": 70000,
-        "sell": 65000,
+        "investment": 80000,
+        "sell": 95000,
         "revenue": 61000
     },
     {
         "month": "November",
-        "investment": 70000,
-        "sell": 65000,
+        "investment": 80000,
+        "sell": 80000,
         "revenue": 61000
     },
     {
         "month": "December",
-        "investment": 70000,
+        "investment": 90000,
         "sell": 65000,
         "revenue": 61000
     }
