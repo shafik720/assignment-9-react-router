@@ -7,7 +7,8 @@ const FirstChart = (props) => {
     let data = props.chart;
     return (
         <div>
-            <h2>Hello From Chart</h2>
+            <h2 className="text-center mt-4">First Chart</h2>
+            <hr width="50%" className="mx-auto mb-4" />
             <div className="container">
                 <div className="row">
                 <LineChart width={800} height={400} data={data}>
