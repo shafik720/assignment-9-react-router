@@ -5,7 +5,12 @@
     "profession": "Actor",
     "location": "California",
     "img": "img/user (6).jpg",
-    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me."
+    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.",
+    "dragonId": 7,
+      "dragonName": "Flying Dutchman",
+      "price": 35,
+      "ratings": 4.5,
+      "imgSrc": "img/Dragon/dragon (27).jpg"
   },
   {
     "id": 2,
@@ -13,7 +18,12 @@
     "profession": "Actor",
     "location": "New Orleans",
     "img": "img/user (7).jpg",
-    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me."
+    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.",
+    "dragonId": 2,
+    "dragonName": "Storm End",
+    "price": 27,
+    "ratings": 4,
+    "imgSrc": "img/Dragon/dragon (1).jpg"
   },
   {
     "id": 3,
@@ -21,7 +31,12 @@
     "profession": "Actor",
     "location": "London",
     "img": "img/user (2).jpg",
-    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me."
+    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.",
+    "dragonId": 1,
+    "dragonName": "Hell Fire",
+    "price": 40,
+    "ratings": 4.5,
+    "imgSrc": "img/Dragon/dragon (15).jpg"
   },
   {
     "id": 4,
@@ -29,7 +44,12 @@
     "profession": "Football Player",
     "location": "Argentina",
     "img": "img/user (4).jpg",
-    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me."
+    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.",
+    "dragonId": 3,
+    "dragonName": "Revenger",
+    "price": 29,
+    "ratings": 4,
+    "imgSrc": "img/Dragon/dragon (11).jpg"
   },
   {
     "id": 5,
@@ -37,7 +57,12 @@
     "profession": "Football Player",
     "location": "Portugal",
     "img": "img/user (3).jpg",
-    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me."
+    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.",
+    "dragonId": 4,
+    "dragonName": "Dream Fire",
+    "price": 23,
+    "ratings": 4,
+    "imgSrc": "img/Dragon/dragon (19).jpg"
   },
   {
     "id": 6,
@@ -45,7 +70,12 @@
     "profession": "Actor",
     "location": "Sweeden",
     "img": "img/user (8).jpg",
-    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me."
+    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.",
+    "dragonId": 5,
+    "dragonName": "Northern Ice",
+    "price": 26,
+    "ratings": 3.8,
+    "imgSrc": "img/Dragon/dragon (5).jpg"
   },
   {
     "id": 7,
@@ -53,7 +83,12 @@
     "profession": "Tennis Player",
     "location": "Serbia",
     "img": "img/user (1).png",
-    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me."
+    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.",
+    "dragonId": 2,
+    "dragonName": "Storm End",
+    "price": 27,
+    "ratings": 4,
+    "imgSrc": "img/Dragon/dragon (1).jpg"
   },
   {
     "id": 8,
@@ -61,6 +96,11 @@
     "profession": "Actor",
     "location": "New York",
     "img": "img/user (1).jpg",
-    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me."
+    "comments": "This Dragon is Amazing. I bought her 2 Months ago. I never had to fly plane after i owned her. She is smart and sweet. She never grew tired while flying. She always listen to me. I am so glad that i have her. I love her so much. Thanks to the seller for showing her to me.",
+    "dragonId": 4,
+    "dragonName": "Dream Fire",
+    "price": 23,
+    "ratings": 4,
+    "imgSrc": "img/Dragon/dragon (19).jpg"
   }
 ]
