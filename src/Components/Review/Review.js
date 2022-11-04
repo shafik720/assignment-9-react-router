@@ -20,8 +20,8 @@ const Review = (props) => {
                             <p>{dragonName}</p>
                         </div>
                         <div className="details-right">
-                            <p>Price : {price} <span><FontAwesomeIcon icon={faBitcoinSign} /></span> </p>
-                            <p>Ratings : {ratings} Stars</p>
+                            <p>Price : <span className="blue-text">{price}</span>  <span><FontAwesomeIcon icon={faBitcoinSign} /></span> </p>
+                            <p> Ratings : <span className="blue-text">{ratings}</span> Stars</p>
                         </div>
                     </div>
                 </div>
