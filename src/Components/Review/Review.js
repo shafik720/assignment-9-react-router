@@ -1,5 +1,9 @@
 import React from 'react';
 import './Review.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBitcoinSign, faStar } from '@fortawesome/free-solid-svg-icons';
+
+
 
 const Review = (props) => {
     const{ img, userName, location, profession, comments, dragonName, imgSrc, price, ratings} = props.index;
@@ -16,8 +20,8 @@ const Review = (props) => {
                             <p>{dragonName}</p>
                         </div>
                         <div className="details-right">
-                            <p>Price : {price} BTC </p>
-                            <p>Ratings : {ratings} </p>
+                            <p>Price : {price} <span><FontAwesomeIcon icon={faBitcoinSign} /></span> </p>
+                            <p>Ratings : {ratings} Stars</p>
                         </div>
                     </div>
                 </div>
