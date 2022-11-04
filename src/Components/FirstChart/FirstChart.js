@@ -7,7 +7,7 @@ const FirstChart = (props) => {
     let data = props.chart;
     return (
         <div>
-            <h2 className="text-center mt-4">First Chart</h2>
+            <h4 className="text-center mt-5">First Chart</h4>
             <hr width="50%" className="mx-auto mb-4" />
             <div className="container">
                 <div className="row">
