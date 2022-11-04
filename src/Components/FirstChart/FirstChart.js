@@ -3,7 +3,6 @@ import React from 'react';
 import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const FirstChart = (props) => {
-    console.log(props.chart);
     let data = props.chart;
     return (
         <div>
@@ -11,7 +10,7 @@ const FirstChart = (props) => {
             <hr width="50%" className="mx-auto mb-4" />
             <div className="container">
                 <div className="row">
-                <LineChart width={800} height={400} data={data}>
+                <LineChart className="mx-auto" width={800} height={400} data={data}>
                     <Line type="monotone" dataKey="investment" stroke="#8884d8" />
                     <Line type="monotone" dataKey="sell" stroke="darkred" />
                     <CartesianGrid stroke="#ccc" />

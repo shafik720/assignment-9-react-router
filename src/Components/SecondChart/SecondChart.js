@@ -1,6 +1,7 @@
 import React from 'react';
 
-const SecondChart = () => {
+const SecondChart = (props) => {
+    let data = props.chart;
     return (
         <div>
             <h4 className="text-center mt-5">Second Chart</h4>
