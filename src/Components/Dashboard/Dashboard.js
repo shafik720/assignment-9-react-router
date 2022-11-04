@@ -11,7 +11,7 @@ const Dashboard = () => {
     },[])
     return (
         <div className="dashBoard-div">
-            
+            <FirstChart chart={chart}></FirstChart>
         </div>
     );
 };

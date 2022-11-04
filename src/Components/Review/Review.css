@@ -83,7 +83,7 @@
 
 .productCard-details{
     width: 100%;
-    border: 3px solid #183153a1;
+    /* border: 3px solid #183153a1; */
     border-radius: 5px ;
     padding: 5px 7px;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
