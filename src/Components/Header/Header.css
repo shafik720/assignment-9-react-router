@@ -46,11 +46,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 0;
 }
 .menu-logo img{
     width: 50px;
     padding: 5px; 
-    margin: 10px 5px;    
+    /* margin: 10px 5px;     */
+}
+.menu-logo h2{
+    margin-bottom: -3px;
+    margin-left: 5px;
+    font-weight: 700;
 }
 
   @media (max-width: 760px){
