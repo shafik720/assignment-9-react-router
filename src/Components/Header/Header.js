@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
-import dragonLogo from '../../utilities/img/dragon.png'
+import dragonLogo from '../../utilities/img/dragon-logo.png'
 import './Header.css';
 
 const Header = () => {
