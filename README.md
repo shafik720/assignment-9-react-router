@@ -6,6 +6,10 @@ This simple project is made with React.js alongside with react router, recharts.
 # Some Features
 
 <details>
+           <summary>Fully Responsive Menubar</summary>
+           <p> I made the menubar fully responsive for mobile and tab with vanilla js, html, css </p>
+         </details>
+<details>
            <summary>Routing with active link</summary>
            <p>When user will go to different page the navbar will show the current route by styling it </p>
          </details>
