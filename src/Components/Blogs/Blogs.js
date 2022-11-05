@@ -4,7 +4,16 @@ import './Blogs.css'
 const Blogs = () => {
     return (
         <div className="blogs-div">
-            <h2>Blog Section goes here</h2>
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-1"></div>
+                    <div className="col-lg-5">
+                        <div className="">
+                            <h2>Context Api</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
