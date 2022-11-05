@@ -66,14 +66,15 @@
         position: fixed;        
         left: -100%;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         gap: 30px;
         border-radius: 0px !important;
         transition: all 0.3s;
         top: 70px;
         width: 70% !important;
         height: 100vh;
+        padding-top: 30px;
     }
     .header-div.active{
         left: 0;
