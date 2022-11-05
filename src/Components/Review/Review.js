@@ -9,9 +9,9 @@ const Review = (props) => {
     const{ img, userName, location, profession, comments, dragonName, imgSrc, price, ratings} = props.index;
     console.log(props.index);
     return (
-        <div className=" col-lg-4 review-divs">
-            <div className="user-card">
-                <div className="productCard">
+        <div className=" col-lg-4 review-divs mb-4">
+            <div className="user-card h-100">
+                <div className="productCard ">
                     <div className="productCard-top">
                         <img src={imgSrc} alt=""/>
                     </div>
