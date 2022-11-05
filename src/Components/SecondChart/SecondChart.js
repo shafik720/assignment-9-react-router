@@ -10,7 +10,7 @@ const SecondChart = (props) => {
             <hr width="50%" className="mx-auto mb-4" />
             <div className="container">
                 <div className="row mb-5">
-                    <div className="col-lg-11">
+                    <div className="col-lg-12">
                     <ResponsiveContainer width="95%" height={400}>
                     <BarChart className="mx-auto" width={800} height={400} data={data}>
                         <Bar dataKey="investment" fill="#8884d8" />
